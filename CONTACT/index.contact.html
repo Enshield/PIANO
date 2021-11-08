@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIANO PLAYER CONTACT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="/site_piano_Lokendra_BHATI/logo/logo-contact.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript">
+	
+	let i = 0
+	
+	function Incrementer(){
+		i++
+		console.log('ajout de 1 à i')
+		if (i > 10){
+			let img = document.getElementById('myImg')
+			img.style.display = "block"
+		}
+	}
+
+    </script>
+</head>
+<body>
+    <h1><link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">PIANO PLAYER CONTACT</h1>
+    
+    <div class="shop">
+        <link href="https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap" rel="stylesheet"> 
+        <a href="../SHOP/index.shop.html" > <img src="/site_piano_Lokendra_BHATI/logo/logo-shop.png" alt="" /> SHOP </a>
+    </div>
+
+    <div class="PIANO">
+        <link href="https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap" rel="stylesheet"> 
+        <a href="/site_piano_Lokendra_BHATI/index.html" > <img src="/site_piano_Lokendra_BHATI/logo/logo-piano.png" alt="" /> PIANO PLAYER </a>
+    </div>
+
+    <form action="/formulaire" method="post">
+        <h2>Je suis un :</h2>
+        <input type="radio" id="adulte" name="user_age" value="adulte">
+        <label for="adulte" class="adulte1">ADULTE :</label><br>
+        <input type="radio" id="enfant" name="user_age" value="enfant">
+        <label for="enfant" class="enfant1">ENFANT :</label><br>
+
+        <div>
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="user_name">
+        </div>
+        <div>
+            <label for="first-name">Prénom :</label>
+            <input type="text" id="name" name="user_first-name">
+        </div>
+        <div>
+            <label for="mail">e-mail :</label>
+            <input type="email" id="mail" name="user_mail">
+        </div>
+        <div>
+            <label for="msg">Message :</label>
+            <textarea id="msg" name="user_message"></textarea>
+        </div>
+        <div class="button">
+            <button type="button" onClick="Incrementer()" id="btn1">Envoyer le message</button>
+        </div>
+    </form>
+    <img src="https://i.imgflip.com/5t6mwv.jpg" alt="Envoyer le message" class="Img3" id="myImg" style="display:none;">
+</body>
+</html>

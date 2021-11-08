@@ -1,0 +1,233 @@
+body{
+    background-color: rgb(255, 220, 220); 
+}
+
+.PIANO a {
+    position: absolute;
+    top: 20px; left: 20px;
+    color: black;
+    font-family: 'Ceviche One', cursive;
+    text-shadow: 4px 4px 4px white;
+    font-size: 40px;
+}
+
+.PIANO a:hover {
+    font-size: 280%;
+    text-shadow: 4px 4px 4px red;
+}
+
+
+h1 {
+    color: black;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 10px 10px 10px rgb(170, 170, 170);
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.contact a {
+    position: absolute;
+    top: 20px; right: 25px;
+    color: black;
+    font-family: 'Ceviche One', cursive;
+    text-shadow: 4px 4px 4px white;
+    font-size: 40px;
+}
+
+.contact a:hover {
+    font-size: 300%;
+    text-shadow: 4px 4px 4px blue;
+}
+
+
+img {  
+    width : 35px;  
+    vertical-align:middle;
+}
+
+
+h2 {
+    position: absolute;
+    text-decoration: underline #95d7e3;
+    left: 50px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    background: -webkit-linear-gradient( 92deg, #95d7e3, #eb76ff );
+    background-size:600vw 600vw;
+    -webkit-background-clip: text ;
+    background-clip: text ;
+    -webkit-text-fill-color: transparent;
+    animation: textAnimate 5s linear infinite alternate;
+}
+
+@keyframes textAnimate {
+    from {
+    filter: hue-rotate(0deg);
+    background-position-x: 0%;
+    
+    }
+    to {
+    filter: hue-rotate(360deg);
+    background-position-x: 600vw;
+    
+    }
+}
+
+.rect1 {
+    position: relative;
+    top: 80px; left: 0px;
+    border: 150px solid white;
+    border-radius: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.rect1 h3 {
+    position: absolute;
+    top: -150px; left: 150px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px ;
+}
+.rect1 p {
+    position: absolute;
+    display:grid;
+    top: -130px; left: 150px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px ;
+}
+
+.rect1 pre {
+    position: absolute;
+    display:grid;
+    top: -20px; left: 140px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px ;
+}
+
+.piano1 {  
+    position: absolute;
+    width : 200px;
+    top: -120px; left: -100px;
+
+}
+
+.rect1 a {
+    position: absolute;
+    font-family: 'Roboto', serif;
+    font-style: italic;
+    color:red;
+    top: 100px; left: -70px;
+}
+
+.rect1 a:hover {
+    font-size: 130%;
+    text-shadow: 4px 4px 4px yellow;
+}
+
+
+
+
+.rect2 {
+    position: relative;
+    top: 100px; left: 0px;
+    border: 160px solid white;
+    border-radius: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.piano2 {  
+    position: absolute;
+    width : 300px;
+    top: -150px; left: -110px;
+
+}
+
+.rect2 h4 {
+    position: absolute;
+    top: -170px; left: 160px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px ;
+}
+
+.rect2 p {
+    position: absolute;
+    display:grid;
+    top: -150px; left: 160px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px ;
+}
+
+.rect2 pre {
+    position: absolute;
+    display:grid;
+    top: 10px; left: 125px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px ;
+}
+
+.rect2 a {
+    position: absolute;
+    font-family: 'Roboto', serif;
+    font-style: italic;
+    color:red;
+    top: 110px; left: -70px;
+}
+
+.rect2 a:hover {
+    font-size: 130%;
+    text-shadow: 4px 4px 4px yellow;
+}
+
+.rect3 {
+    position: relative;
+    top: 120px; left: 0px;
+    border: 160px solid white;
+    border-radius: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.piano3 {  
+    position: absolute;
+    width : 300px;
+    top: -140px; left: -110px;
+
+}
+
+.rect3 h4 {
+    position: absolute;
+    top: -170px; left: 250px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px ;
+}
+
+.rect3 p {
+    position: absolute;
+    display:grid;
+    top: -150px; left: 250px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px ;
+}
+
+.rect3 pre {
+    position: absolute;
+    display:grid;
+    top: 10px; left: 220px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px ;
+}
+
+.rect3 a {
+    position: absolute;
+    font-family: 'Roboto', serif;
+    font-style: italic;
+    color:red;
+    top: 110px; left: -70px;
+}
+
+.rect3 a:hover {
+    font-size: 130%;
+    text-shadow: 4px 4px 4px yellow;
+}

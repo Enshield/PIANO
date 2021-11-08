@@ -1,0 +1,108 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #777CDA;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center ;   
+}
+
+.logo a {
+    position: absolute;
+    top: -5px; left: 40px;
+    color: black;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 4px 4px 4px red;
+    font-size: 50px;
+}
+
+.logo a:hover {
+    font-size: 50px;
+    text-shadow: 4px 4px 4px white;
+}
+
+
+.SHOP a {
+    position: absolute;
+    top: 20px; right: 250px;
+    color: black;
+    font-family: 'Ceviche One', cursive;
+    text-shadow: 4px 4px 4px white;
+    font-size: 40px;
+}
+
+.SHOP a:hover {
+    font-size: 300%;
+    text-shadow: 4px 4px 4px blue;
+}
+
+.contact a {
+    position: absolute;
+    top: 20px; right: 25px;
+    color: black;
+    font-family: 'Ceviche One', cursive;
+    text-shadow: 4px 4px 4px white;
+    font-size: 40px;
+}
+
+.contact a:hover {
+    font-size: 300%;
+    text-shadow: 4px 4px 4px blue;
+}
+
+img {  
+    width : 35px;  
+    vertical-align:middle;
+}
+
+
+.encadrer-noir{ border: 4px solid black; padding: 6px; background-color: red; }
+
+.encadrer-blanc{ border: 4px solid white; padding: 6px; background-color: red;}
+
+.playing{
+    border-color: #c22525;
+    box-shadow: 0 0 1rem #c22525;
+}
+
+
+.piano {
+    display: flex; 
+}
+
+
+.key {
+    height: calc(var(--width) * 4);
+    width: var(--width);
+}
+
+
+.white {
+    --width: 100px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid #333;
+    text-align: center;
+    padding-top: 250px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: black;
+}
+
+.black {
+    --width: 60px;
+    height: 240px;
+    background-color: black;
+    margin-left: calc(var(--width) / -2);
+    margin-right: calc(var(--width) / -2);
+    z-index: 2;
+    text-align:center;
+    padding-top: 100px;
+    font-family: 'Roboto', sans-serif ;
+    font-size: 30px;
+    color: white;
+}
