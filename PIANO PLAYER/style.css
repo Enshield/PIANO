@@ -11,6 +11,21 @@ body{
     align-items: center ;   
 }
 
+.RALIF {
+    position: absolute;
+    text-align:center;
+    color: #777CDA;
+    font-size: 50px;
+    top: 100px;
+    font-family: 'Roboto', sans-serif;  
+}
+
+.RALIF :hover {
+    font-size: 50px;
+    color: orange;
+    text-shadow: 5px 5px 5px violet;
+}
+
 .logo a {
     position: absolute;
     top: -5px; left: 40px;
